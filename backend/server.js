@@ -7,7 +7,7 @@ const path = require('path');
 const requestIp = require('request-ip');
 const moment = require('moment');
 
-const API_KEY = "AIzaSyCKE9Mq0SiUxY6U9bTQ2ZbcRKLiFqe_Wdk"; // Substitua pela sua chave de API do Google Gemini
+const API_KEY = "AIzaSyDWOYJeyRPZCrPsWUvZmcVPmS-hT3ANAHE"; // Substitua pela sua chave de API do Google Gemini
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const { access } = require('fs');
 const genAI = new GoogleGenerativeAI(API_KEY);
